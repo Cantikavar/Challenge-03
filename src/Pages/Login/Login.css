@@ -1,9 +1,9 @@
-.car{ 
+#car{ 
     padding-top: 3rem; 
     padding-bottom: 3rem; 
 } 
  
-.bg{ 
+#bg{ 
     position: absolute; 
     top: 0px; 
     width: 875px; 
@@ -19,16 +19,16 @@
     padding-top: 160px; 
     padding-left: 60px; 
 } 
-.Form{ 
+Form{ 
     width: 370px; 
     height: 150.18px; 
 }
 
-.row{
+#row{
     left: 5px;
 }
 
-.btn{
+#btn{
     width: 370px;
     background-color: #0D28A6;
 }
