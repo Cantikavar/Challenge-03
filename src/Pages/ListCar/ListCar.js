@@ -16,65 +16,62 @@ import logoEdit from '../../Assets/IMG/fi_edit.png'
 
 import { Nav, Navbar, Container, Form, FormControl, Button, Card  } from 'react-bootstrap'
 
+
+const GoToCar =()=>{
+    window.location.href="/AddNewCar"
+}
+
+
 export const ListCar = () => {
   return (
     <div className='main-container'>
     
     <div className='container-dashboard'>
-                <img alt='' src={logoSatu} className='logoSatu' />
-
-                <div>
-                    <a href='dashboard' className='tag'> <i>
-                        <img alt='' src={logoHomepage} className='logoHomepage' />
-                    </i>
-                       Dashboard
-                    </a>
-                </div>
-
-                <div>
-                    <a href='cars' className='tag'> <i>
-                        <img alt='' src={logoTruck} className='logoTruck' />
-                    </i>
-                        Cars
-                    </a>
-                </div>
-
-                
+        <img alt='' src={logoSatu} className='logoSatu' /><div>
+            <a href='dashboard' className='tag'> <i>
+            <img alt='' src={logoHomepage} className='logoHomepage' /></i>
+                Dashboard
+            </a>
             </div>
 
-            <div className='navbar-content'>
-                <div className='container-navbar'>
-                    <Navbar expand="lg" className='navbar-custom'>
-                        <Container fluid>
-                            <Navbar.Toggle aria-controls="navbarScroll" />
-                            <Navbar.Collapse id="navbarScroll">
-                                <Nav
-                                    className="me-auto my-2 my-lg-0"
-                                    style={{ maxHeight: '100px' }}
-                                    navbarScroll>
-                                    <img alt='' src={logoDua} />
-                                    <img alt='' src={menuStrip} className='menuStrip' />
+        <div>
+        <a href='cars' className='tag'> <i>
+            <img alt='' src={logoTruck} className='logoTruck' /></i>
+                Cars
+            </a>
+            </div>
+            </div>
 
-                                </Nav>
-                                <Form className="d-flex">
-                                    <FormControl
-                                        type="search"
-                                        placeholder="Search"
-                                        className="me-2"
-                                        aria-label="Search"
-                                    />
-                                    <Button variant="primary" className='btn-search'>Search</Button>
-                                </Form>
-
-                                <img alt='' src={logoU} className='logoU' />
-                                <div className='akun-name'>
-                                    Unis Badri
-                                </div>
-                                <img alt='' src={kurungDown} />
-                            </Navbar.Collapse>
-                        </Container>
+        <div className='navbar-content'>
+            <div className='container-navbar'>
+            <Navbar expand="lg" className='navbar-custom'>
+                <Container fluid>
+                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Collapse id="navbarScroll">
+                <Nav
+                    className="me-auto my-2 my-lg-0"
+                    style={{ maxHeight: '100px' }}
+                    navbarScroll>
+                    <img alt='' src={logoDua} />
+                    <img alt='' src={menuStrip} className='menuStrip' />
+                </Nav>
+                <Form className="d-flex">
+                <FormControl
+                    type="search"
+                    placeholder="Search"
+                    className="me-2"
+                    aria-label="Search"/>
+                <Button variant="primary" className='btn-search'>Search</Button>
+                </Form>
+                    <img alt='' src={logoU} className='logoU' />
+                    <div className='akun-name'>
+                        Unis Badri
+                    </div>
+                    <img alt='' src={kurungDown} />
+                    </Navbar.Collapse>
+                    </Container>
                     </Navbar>
-                </div>
+                    </div>
 
                 <div className='container-content'>
                     <div className='menu'>
@@ -89,28 +86,27 @@ export const ListCar = () => {
                         </div>
                     </div>
 
-                    <div className='container-table'>
-                            <div className='main-container-table-cars'>
 
-                                <div className='content-table'>
-                                    <div className='dashboard-table'>
-                                        Cars
-                                    </div>
+                <div className='container-table'>
+                    <div className='main-container-table-cars'>
+                    <div className='content-table'>
+                        <div className='dashboard-table'>
+                            Cars
+                        </div>
 
-                                    <div className='chevron-right'>
-                                        <img alt='' src={stripKiri} />
-                                    </div>
+                    <div className='chevron-right'>
+                        <img alt='' src={stripKiri} />
+                    </div>
 
-                                    <div className='dashboard-table-2'>
-                                        List Cars
-                                    </div>
+                    <div className='dashboard-table-2'>
+                            List Cars
+                    </div>
+                    </div>
 
-                                </div>
-
-                                <div className='dashboard-3-cars'>
-                                    List Cars
-                                    <div className='container-btn-new-car'>
-                                        <Button variant="primary" className='btn-new-car' href='new-cars'>+ Add New Car</Button>{' '}
+                <div className='dashboard-3-cars'>
+                            List Cars
+                <div className='container-btn-new-car'>
+                                        <Button variant="primary" className='btn-new-car' onClick={()=>{GoToCar()}}>+ Add New Car</Button>{' '}
                                     </div>
 
                                 </div>
@@ -130,7 +126,7 @@ export const ListCar = () => {
                                             <div className='tipe-mobil'>
                                                 Nama/Tipe Mobil
                                             </div>
-                                            {/* <Card.Title>Card Title</Card.Title> */}
+                                        {/* <Card01> */}
                                             <div className='harga'>
                                                 Rp 430.000 / hari
                                             </div>
@@ -162,7 +158,7 @@ export const ListCar = () => {
                                             <div className='tipe-mobil'>
                                                 Nama/Tipe Mobil
                                             </div>
-                                            {/* <Card.Title>Card Title</Card.Title> */}
+                                            {/* <Card02> */}
                                             <div className='harga'>
                                                 Rp 430.000 / hari
                                             </div>
@@ -194,7 +190,7 @@ export const ListCar = () => {
                                             <div className='tipe-mobil'>
                                                 Nama/Tipe Mobil
                                             </div>
-                                            {/* <Card.Title>Card Title</Card.Title> */}
+                                            {/* <Card03> */}
                                             <div className='harga'>
                                                 Rp 430.000 / hari
                                             </div>
@@ -226,7 +222,7 @@ export const ListCar = () => {
                                             <div className='tipe-mobil'>
                                                 Nama/Tipe Mobil
                                             </div>
-                                            {/* <Card.Title>Card Title</Card.Title> */}
+                                            {/* <Card04> */}
                                             <div className='harga'>
                                                 Rp 430.000 / hari
                                             </div>
@@ -258,7 +254,7 @@ export const ListCar = () => {
                                             <div className='tipe-mobil'>
                                                 Nama/Tipe Mobil
                                             </div>
-                                            {/* <Card.Title>Card Title</Card.Title> */}
+                                            {/* <Card05> */}
                                             <div className='harga'>
                                                 Rp 430.000 / hari
                                             </div>
@@ -290,7 +286,7 @@ export const ListCar = () => {
                                             <div className='tipe-mobil'>
                                                 Nama/Tipe Mobil
                                             </div>
-                                            {/* <Card.Title>Card Title</Card.Title> */}
+                                            {/* <Card06> */}
                                             <div className='harga'>
                                                 Rp 430.000 / hari
                                             </div>
@@ -322,7 +318,7 @@ export const ListCar = () => {
                                             <div className='tipe-mobil'>
                                                 Nama/Tipe Mobil
                                             </div>
-                                            {/* <Card.Title>Card Title</Card.Title> */}
+                                            {/* <Card07> */}
                                             <div className='harga'>
                                                 Rp 430.000 / hari
                                             </div>
@@ -354,16 +350,14 @@ export const ListCar = () => {
                                             <div className='tipe-mobil'>
                                                 Nama/Tipe Mobil
                                             </div>
-                                            {/* <Card.Title>Card Title</Card.Title> */}
+                                            {/* <Card08> */}
                                             <div className='harga'>
                                                 Rp 430.000 / hari
                                             </div>
 
                                             <div className='property-car'>
                                                 <img alt='' src={logoKey} />
-                                                <div className='property-car-txt'>
-                                                    Start rent - Finish rent
-                                                </div>
+                                                <div className='property-car-txt'>Start rent - Finish rent</div>
                                             </div>
 
                                             <div className='property-car-2'>
@@ -386,7 +380,7 @@ export const ListCar = () => {
                                             <div className='tipe-mobil'>
                                                 Nama/Tipe Mobil
                                             </div>
-                                            {/* <Card.Title>Card Title</Card.Title> */}
+                                            {/* <Card10> */}
                                             <div className='harga'>
                                                 Rp 430.000 / hari
                                             </div>

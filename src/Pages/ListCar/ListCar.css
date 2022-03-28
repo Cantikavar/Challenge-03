@@ -1,34 +1,31 @@
+/* <NAVBAR> */
 .main-container {
     display: flex;
     flex-direction: row;
-    /* background-color: aqua !important; */
     height: 100vh;
-    /* width: 100%; */
-  }
+}
   
-  .container-dashboard {
+.container-dashboard {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     height: 100vh;
     width: 70px;
     background-color: #0D28A6;
     position: fixed;
-  }
+}
   
-  .navbar-content {
+.navbar-content {
     display: flex;
     flex-direction: column;
-    /* background-color: #151515; */
     width: 100%;
-  }
+}
   
-  .logoSatu {
+.logoSatu {
     margin-top: 18px;
     width: 34px;
     height: 34px;
-  }
+}
   
   .logoHomepage {
     width: 24px;
@@ -42,7 +39,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-  
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
@@ -50,28 +46,21 @@
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
-    /* margin-top: 4px; */
   }
-  
   
   .logoTruck {
     margin-top: 20px;
   }
   
-  
-  /*  */
   .container-navbar {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
     margin-left: 70px;
   }
-  
   
   .navbar-custom {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05) !important;
     background-color: #FFFFFF !important;
-  
   }
   
   .btn-search {
@@ -98,14 +87,12 @@
     margin-right: 14px;
   }
   
-  
   .container-content {
     display: flex;
     height: 100vh;
     margin-left: 60px;
     margin-top: -8px;
   }
-  
   
   .menu {
     display: flex;
@@ -123,7 +110,6 @@
     font-size: 14px;
     line-height: 20px;
     color: #8A8A8A;
-  
   }
   
   .dashboard-low {
@@ -149,26 +135,23 @@
     height: 50px;
   }
 
+/* <CONTENT> */
   .container-table {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-left: 50px;
-
 }
 
 .main-container-table-cars {
     display: flex;
     flex-direction: column;
     margin: 32px 25px 38px 25px;
-
-
 }
 
 .content-table {
     display: flex;
     flex-direction: row;
-
 }
 
 .dashboard-table {
@@ -193,8 +176,6 @@
     font-size: 12px;
     line-height: 18px;
     margin-top: 5px;
-
-
 }
 
 .dashboard-3-cars {
@@ -240,7 +221,6 @@
     border: 1px solid #AEB7E1 !important;
     border-radius: 2px;
 }
-
 
 .cards-group {
     display: flex;
@@ -291,22 +271,20 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    margin-left: 10px;
-    
+    margin-left: 10px;   
+}
+
+.btn-card{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .property-car-2 {
     margin: 16px 0px 8px 0px;
     display: flex;
-    flex-direction: row;
-    
-}
-
-.btn-card{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
+    flex-direction: row;  
 }
 
 .btn-delete{

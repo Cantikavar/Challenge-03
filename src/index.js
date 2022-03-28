@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Layout } from './Pages/Layout';
+import { AlertsDefault } from './Assets/Components/Alerts/AlertsDefault';
+
 
 
 

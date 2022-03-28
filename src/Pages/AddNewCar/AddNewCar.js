@@ -12,6 +12,12 @@ import kurungDown from '../../Assets/IMG/fi_chevron-down.png'
 import stripKiri from '../../Assets/IMG/Vector.png'
 
 
+const PindahHalamanAlerts =()=>{
+    alert ("Data Berhasil Disimpan")
+    
+}
+
+
 export const AddNewCar = () => {
   return (
     <div className='main-container'>
@@ -78,15 +84,10 @@ export const AddNewCar = () => {
                             <div className='dashboard-low-title'>
                                 List Car
                             </div>
-            </div>
-            </div>
-            <div> 
-            </div>
-            </div>
-            </div>
-        
-        
-            <div className='container-content'>
+                        </div>
+                    </div>
+                
+                    <div className='container-content'>
                     <div className='container-table'>
                         <div className='main-container-table-cars'>
 
@@ -116,8 +117,6 @@ export const AddNewCar = () => {
                             <div className='dashboard-3-new-cars'>
                                 Add New Car
                             </div>
-
-
 
                             <div className='container-new-car'>
                                 <div className='container-input-1'>
@@ -197,16 +196,19 @@ export const AddNewCar = () => {
 
                                 <div className='btn-newcar'>
                                     <button className='btn-1'>Cancel</button>
-                                    <button className='btn-2'>Save</button>
+                                    <button className='btn-2' onClick={()=>{PindahHalamanAlerts()}}>Save</button>
                                 </div>
-
-
                             </div>
-
                         </div>
                     </div>
                 </div>
-    
+                <div> 
+                </div>
+            </div>
+        </div>
+        
+        
+            
     </div>
   )
 }

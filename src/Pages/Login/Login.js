@@ -4,9 +4,15 @@ import Logo from '../../Assets/IMG/Rectangle 62.png'
 import bg from '../../Assets/IMG/image 2.png'
 import '../Login/Login.css'
 
+
+const PindahHalamanS =()=>{
+    window.location.href="/Dashboard"
+}
+
 export const Login = () => {
     let [email,setEmail] = useState("");
     let [password, setPassword] = useState("");
+  
     
   return (
     <div >
@@ -27,7 +33,7 @@ export const Login = () => {
             <input type="password" className="form-control" placeholder="Enter password"/>
         </div>
       </Form>
-      <Button variant="primary" size="md" id='btn'>Log In</Button>
+      <Button variant="primary" size="md" id='btn' onClick={()=>{PindahHalamanS()}}>Log In</Button>
     </Container>
     </Col>
     </Row>

@@ -1,0 +1,27 @@
+
+
+.cardDelete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 32px;
+    position: relative;
+    width: 387px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.cardTengah {
+    margin-left: 35px;
+}
+
+.buttonTengah {
+    margin-left: 43px;
+    margin-top: -2px;
+}
+
+.jarakButton{
+    margin-right: 15px;
+}
