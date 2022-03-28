@@ -1,0 +1,34 @@
+#car{ 
+    padding-top: 3rem; 
+    padding-bottom: 3rem; 
+} 
+ 
+#bg{ 
+    position: absolute; 
+    top: 0px; 
+    width: 875px; 
+    height: 657px; 
+    background-color: #0D28A6; 
+} 
+.login{ 
+    background-color: white; 
+    position: absolute; 
+    width: 500px; 
+    left: 865px; 
+    height: 657px; 
+    padding-top: 160px; 
+    padding-left: 60px; 
+} 
+Form{ 
+    width: 370px; 
+    height: 150.18px; 
+}
+
+#row{
+    left: 5px;
+}
+
+#btn{
+    width: 370px;
+    background-color: #0D28A6;
+}
